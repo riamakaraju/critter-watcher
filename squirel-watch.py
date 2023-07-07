@@ -47,7 +47,7 @@ squirrel_counter = 0
 
 # print out the result
 if (class_desc == "fox squirrel, eastern fox squirrel, Sciurus niger"):
-    print("Squirrel alert! (: We are " + confidence*100 + " sure of it...")
+    print("Squirrel alert! (: We are " + str(confidence+100) + "percent sure...")
     squirrel_counter+=1
-    print("You have seen " + squirrel_counter + " squirrels.")
+    print("You have seen " + str(squirrel_counter) + " squirrel(s).")
 
