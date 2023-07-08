@@ -21,4 +21,4 @@ The algorithm runs on Resnet-19, a machine learning framwoek from Pytorch. Speci
 Note: You are able to do classify many images through the terminal separately. The types of critters identified can be increased by adding more elif statements, using the keywords that can be found at https://github.com/dusty-nv/jetson-inference/blob/master/data/networks/ilsvrc12_synset_words.txt
 
 
-video explanation
+video: https://www.youtube.com/watch?v=PpPCqXbE5x4
