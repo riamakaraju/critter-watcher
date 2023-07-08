@@ -57,9 +57,3 @@ elif (class_desc == "jay"):
     print("\nThere is a gorgeous jay nearby. Please be careful with your pets. We are " + sureness + " of it's presence.")
 elif (class_desc == "house finch, linnet, Carpodacus mexicanus"):
     print("\nFinch alert!!! We are " + sureness + " percent sure there is one nearby.")
-=======
-# print out the result
-if (class_desc == "fox squirrel, eastern fox squirrel, Sciurus niger"):
-    print("Squirrel alert! (: We are " + str(confidence+100) + "percent sure...")
-
->>>>>>> c67c5b8b8e9f2830bfcaea484eca737bb44c69fe:squirel-watch.py
