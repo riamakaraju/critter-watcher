@@ -43,7 +43,6 @@ class_idx, confidence = net.Classify(img)
 # find the object description
 class_desc = net.GetClassDesc(class_idx)
 
-<<<<<<< HEAD:critter-watch.py
 sureness = str(confidence*100)
 
 # print out the result
