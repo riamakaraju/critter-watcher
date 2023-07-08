@@ -43,8 +43,16 @@ class_idx, confidence = net.Classify(img)
 # find the object description
 class_desc = net.GetClassDesc(class_idx)
 
+sureness = str(confidence*100)
 
 # print out the result
 if (class_desc == "fox squirrel, eastern fox squirrel, Sciurus niger"):
-    print("\nSquirrel alert! (: We are " + str(confidence+100) + " percent sure...")
-
+    print("\nSquirrel alert! (: We are " + sureness + " percent sure...")
+elif (class_desc == "wood rabbit, cottontail, cottontail rabbit"):
+    print("\nA bunny has been spotted! Please be careful with your pets! We are " + sureness + " percent sure...")
+elif (class_desc == "robin, American robin, Turdus migratorius"):
+    print("\nThere is a robin nearby! We are " + sureness + " percent sure about this.")
+elif (class_desc == "jay"):
+    print("\nThere is a gorgeous jay nearby. Please be careful with your pets. We are " + sureness + " of it's presence.")
+elif (class_desc == "house finch, linnet, Carpodacus mexicanus"):
+    print("\nFinch alert!!! We are " + sureness + " percent sure there is one nearby.")
